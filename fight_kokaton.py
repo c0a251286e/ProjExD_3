@@ -108,7 +108,12 @@ class Beam:
             self.rct.move_ip(self.vx, self.vy)
             screen.blit(self.img, self.rct)    
 
-
+class score:
+    def __init__(self):
+        self.fonto = pg.font.Font(None, 50)
+        self.img = self.fonto.render("表示させる文字列"
+, 0, 色)
+        
 class Bomb:
     """
     爆弾に関するクラス
