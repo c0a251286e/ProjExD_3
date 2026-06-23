@@ -205,7 +205,6 @@ def main():
 
         score.update(screen)
 
-
         key_lst = pg.key.get_pressed()
         bird.update(key_lst, screen)
         if beam is not None:  # beamが出現していたら
